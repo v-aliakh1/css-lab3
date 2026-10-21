@@ -1,0 +1,12 @@
+body{font-family:Arial,sans-serif;margin:20px;color:#333}
+.column{float:left;width:365px;min-height:480px}.column.wide{width:495px}
+h2{font-size:19px;font-weight:normal}
+.vmenu{width:180px;border:1px solid #b4c6d2}
+.item{position:relative}
+.pt,.drop-item{display:block;padding:11px 12px;text-decoration:none;color:#2b4050;background:#e6eef3;border-bottom:1px solid #bacbd6;text-align:center}
+.pt:hover,.drop-item:hover{background:#bfd5e2}
+.drop{display:none}
+.item:hover>.drop,.item:focus-within>.drop{display:block}
+.side .drop{position:absolute;top:0;left:100%;width:145px;z-index:5;border:1px solid #b4c6d2}
+.accordion .drop{position:static}
+.accordion .drop-item{background:#f1f5f7}
